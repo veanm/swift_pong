@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 WIT. All rights reserved.
 //
 
-import UIKit
-import SpriteKit
+import UIKit;
+import SpriteKit;
 
 class GameViewController: UIViewController {
 
@@ -16,38 +16,38 @@ class GameViewController: UIViewController {
 
         if let scene = GameScene(fileNamed:"GameScene") {
             // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
+            let skView = self.view as! SKView;
+            skView.showsFPS = false;
+            skView.showsNodeCount = false;
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
+            skView.ignoresSiblingOrder = true;
             
             /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
+            scene.scaleMode = .AspectFill;
             
-            skView.presentScene(scene)
+            skView.presentScene(scene);
         }
     }
 
     override func shouldAutorotate() -> Bool {
-        return true
+        return true;
     }
 
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return .AllButUpsideDown
+            return .AllButUpsideDown;
         } else {
-            return .All
+            return .All;
         }
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning();
         // Release any cached data, images, etc that aren't in use.
     }
 
     override func prefersStatusBarHidden() -> Bool {
-        return true
+        return true;
     }
 }

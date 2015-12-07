@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3031D1711C08B48900DACD5C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3031D1701C08B48900DACD5C /* images */; settings = {ASSET_TAGS = (); }; };
 		30A8E7801C08ADCF0061E4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A8E77F1C08ADCF0061E4DD /* AppDelegate.swift */; };
 		30A8E7821C08ADCF0061E4DD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30A8E7811C08ADCF0061E4DD /* GameScene.sks */; };
 		30A8E7841C08ADCF0061E4DD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A8E7831C08ADCF0061E4DD /* GameScene.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3031D1701C08B48900DACD5C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		30A8E77C1C08ADCF0061E4DD /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A8E77F1C08ADCF0061E4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30A8E7811C08ADCF0061E4DD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		30A8E77E1C08ADCF0061E4DD /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				3031D1701C08B48900DACD5C /* images */,
 				30A8E77F1C08ADCF0061E4DD /* AppDelegate.swift */,
 				30A8E7811C08ADCF0061E4DD /* GameScene.sks */,
 				30A8E7831C08ADCF0061E4DD /* GameScene.swift */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3031D1711C08B48900DACD5C /* images in Resources */,
 				30A8E7821C08ADCF0061E4DD /* GameScene.sks in Resources */,
 				30A8E78E1C08ADCF0061E4DD /* LaunchScreen.storyboard in Resources */,
 				30A8E78B1C08ADCF0061E4DD /* Assets.xcassets in Resources */,
@@ -291,6 +295,7 @@
 				30A8E7941C08ADCF0061E4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
